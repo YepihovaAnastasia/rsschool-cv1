@@ -20,7 +20,7 @@ My aim at the moment is to study Frontend development. This is a fascinating, th
 ## Code example:
 Определить, является ли строка палиндромом. Палиндром – это число, слово или фраза, одинаково читающиеся в обоих направления.
 
-```
+``` C#
 using System;
 using System.Linq;
 
@@ -50,3 +50,14 @@ namespace ConsoleApp1
 }
 
 ```
+
+## Education
+Completed basic general education, at this time I'm studying at a college in the specialty "Information technology software".
+
+## Languages:
+* English - Intermediate
+* Russian - Native
+* Ukrainian - Upper Intermediate
+* Belarusian - Native
+* Lithuanian - Beginner
+* Polish - Beginner
