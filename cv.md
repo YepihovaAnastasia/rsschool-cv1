@@ -3,10 +3,10 @@
 ## Novice Web Developer
 
 ## Contact information:
-### Phone: #### +375 (33) 664-91-73
-### Email: #### anastasiayepihova@gmail.com
-### Telegram: #### @userAna
-### Instagram: #### nastya_epihova
+>### Phone: +375 (33) 664-91-73
+>### Email: anastasiayepihova@gmail.com
+>### Telegram: @userAna
+>### Instagram: nastya_epihova
 
 ## Aim:
 My aim at the moment is to study Frontend development. This is a fascinating, thought-provoking, creative industry, I have always wanted to realize myself in this area. I plan to work and develop in this field in the future.
@@ -18,7 +18,7 @@ My aim at the moment is to study Frontend development. This is a fascinating, th
 * VS Code, Microsoft VS
 
 ## Code example:
-Определить, является ли строка палиндромом. Палиндром – это число, слово или фраза, одинаково читающиеся в обоих направления.
+*Определить, является ли строка палиндромом. Палиндром – это число, слово или фраза, одинаково читающиеся в обоих направления.*
 
 ``` C#
 using System;
