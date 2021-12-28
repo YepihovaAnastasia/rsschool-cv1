@@ -17,3 +17,36 @@ My aim at the moment is to study Frontend development. This is a fascinating, th
 * Git, GitHub
 * VS Code, Microsoft VS
 
+## Code example:
+Определить, является ли строка палиндромом. Палиндром – это число, слово или фраза, одинаково читающиеся в обоих направления.
+
+```
+using System;
+using System.Linq;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static bool IsPalindrome(string str)
+        {
+            return str == new string(str.Reverse().ToArray());
+        }
+
+        static void Main()
+        {
+            
+            Console.Write("Введите строку: ");
+            var str = Console.ReadLine();
+            var result = IsPalindrome(str);
+            var message = "Является ли строка '" + str + "' палиндромом: " + result;
+
+            Console.WriteLine(message);
+
+            Console.ReadKey();
+
+        }
+    }
+}
+
+```
