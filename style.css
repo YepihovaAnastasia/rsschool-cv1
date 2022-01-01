@@ -1,3 +1,86 @@
 body{
-    
+    background-color: black;
+}
+
+.header{
+    background-color: blueviolet;
+    width: 1000px;
+    min-height: 6vh;
+    margin: auto;
+}
+
+.my-cv{
+    font-family: "Roboto", sans-serif;
+    font-size: auto;
+    font-weight: bold;
+    padding: 4px 5px 3px;
+}
+
+.nav{
+    width: 1000px;
+    min-height: 3vh;
+    margin: auto;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 5px 0px 3px;
+}
+
+.t-nav{
+    color: rgba(240, 248, 255, 0.781);
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    padding: 4px 5px 2px;
+}
+
+.general-block{
+    background-color: #a0a2a3;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    min-height: 100vh;
+    margin: auto;
+}
+
+.my-photo{
+    position: relative;
+    width: 300px;
+    top: 50px;
+    left: 50px;
+    box-sizing: border-box;
+    border: 4px solid black;
+}
+
+.name{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 72px;
+    top: 100px;
+    left: 50px;
+}
+
+.surname{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 72px;
+    top: 100px;
+    left: 50px;
+}
+
+.footer{
+    background-color: red;
+    width: 1000px;
+    min-height: 30vh;
+    margin: auto;
 }
