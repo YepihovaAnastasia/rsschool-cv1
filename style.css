@@ -1,5 +1,14 @@
+*{
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
 body{
-    background-color: black;
+    background-color: rgba(17, 17, 17, 0.959);
+    display: flex;
+    min-height: 139vh;
+    flex-direction: column;
+    margin: 0;
 }
 
 .header{
@@ -10,77 +19,70 @@ body{
 }
 
 .my-cv{
-    font-family: "Roboto", sans-serif;
     font-size: auto;
     font-weight: bold;
     padding: 4px 5px 3px;
+    margin: auto;
 }
 
 .nav{
     width: 1000px;
-    min-height: 3vh;
     margin: auto;
     color: aliceblue;
-    text-decoration: none;
-    padding: 5px 0px 3px;
+    margin: auto;
+}
+
+.a{
+    background-color: blue;
 }
 
 .t-nav{
     color: rgba(240, 248, 255, 0.781);
     text-decoration: none;
-    font-family: "Roboto", sans-serif;
     font-size: 16px;
     padding: 4px 5px 2px;
 }
 
 .general-block{
-    background-color: #a0a2a3;
-    position: relative;
+    background-color: #bdc7cc;
     display: flex;
-    flex-direction: column;
     width: 1000px;
     min-height: 100vh;
     margin: auto;
 }
 
+@media screen and (max-width: 600px) {
+    .general-block{
+        flex-direction: row;
+    }
+}
+
+.vertical-line{
+    border-right: 3px solid black;
+    padding: 5px;
+    text-align: left;
+    margin: 5px;
+    height: auto;
+}
+
 .my-photo{
-    position: relative;
-    width: 300px;
-    top: 50px;
-    left: 50px;
-    box-sizing: border-box;
+    width: 337px;
     border: 4px solid black;
 }
 
 .name{
-    position: relative;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
     color: black;
     font-weight: bold;
     font-size: 72px;
-    top: 100px;
-    left: 50px;
-}
-
-.surname{
-    position: relative;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
-    color: black;
-    font-weight: bold;
-    font-size: 72px;
-    top: 100px;
-    left: 50px;
 }
 
 .footer{
     background-color: red;
     width: 1000px;
-    min-height: 30vh;
+    min-height: 20vh;
     margin: auto;
+}
+
+.footer > a > img{
+    width: 170px;
 }
