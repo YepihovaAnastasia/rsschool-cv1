@@ -49,20 +49,34 @@ body{
     width: 1000px;
     min-height: 100vh;
     margin: auto;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-@media screen and (max-width: 600px) {
-    .general-block{
-        flex-direction: row;
-    }
+
+.general-block > main > /*aside >*/ div{
+    background-color: #bdc7cc;
+    display: flex;
+    width: 1000px;
+    min-height: 100vh;
+    margin: auto;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.vertical-line{
+/*.vertical-line{
     border-right: 3px solid black;
     padding: 5px;
     text-align: left;
     margin: 5px;
     height: auto;
+} */
+
+.column-one, .column-one > img, .column-one > div{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 50px;
 }
 
 .my-photo{
@@ -73,7 +87,64 @@ body{
 .name{
     color: black;
     font-weight: bold;
-    font-size: 72px;
+    font-size: 62px;
+    margin: 0;
+}
+
+.WD{
+    color: rgb(29, 28, 28);
+    font-size: 29px;
+}
+
+.contacts{
+    
+}
+
+.title-for-contacts{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.p-e{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    margin: 20px;
+}
+
+.title-for-messenger{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+    display:inline-block;
+}
+
+.icon{
+    width: 30px;
+    display:inline-block;
+}
+
+.column-two{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: auto;
+    
+}
+
+.column-two > div, .column-two > div > p > ul{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 600px;
+    justify-content: right;
+}
+
+.chapter{
+    font-family: 'Nunito', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    margin: 20px;
 }
 
 .footer{

@@ -29,8 +29,8 @@
     <!--Основной контейнер-->
     <div class="general-block">
         <main>
-            <aside class="vertical-line">
-                <div>
+            <!-- <aside class="vertical-line"> -->
+                <div class="column-one">
                     <img src="me.jpg" alt="My photo" class="my-photo">
                     <div class="name">
                         <p>Anastasia</p>
@@ -41,17 +41,20 @@
                         Novice Web Developer
                     </div>
 
-                    <div class="contacts">
+                    <div class="contacts" id="contacts">
 
                         <p class="title-for-contacts">PHONE</p>
-                        <p class="title-for-contacts">E-MAIL</p>
+                        <p class="p-e">+375 (33) 664-91-73</p>
 
-                        <p class="additional-contacts">@userAna</p>
+                        <p class="title-for-contacts">E-MAIL</p>
+                        <p class="p-e">anastasiayepihova@gmail.com</p>
+
+                        <p class="title-for-messenger">@userAna</p>
                         <a href="https://t.me/userAna">
                             <img src="telegram.png" alt="telegram_link" class="icon">
                         </a>
 
-                        <p class="additional-contacts">nastya_epihova</p>
+                        <p class="title-for-messenger">nastya_epihova</p>
                         <a href="https://vk.com/away.php?to=https%3A%2F%2Finstagram.com%2Fnastya_epihova%3Futm_medium%3Dcopy_link&cc_key=">
                             <img src="instagram.png" alt="instagram_link" class="icon">
                         </a>
@@ -59,36 +62,36 @@
                     </div>
 
                 </div>
-            </aside>
+            <!-- </aside> -->
 
-            <div>
-                <div>
-                    <p class="chapter">About me</p>
-                    <p>My aim at the moment is to study Frontend development. 
+            <div class="column-two">
+                <div >
+                    <p class="chapter" id="about-me">About me</p>
+                    <p class="p-e">My aim at the moment is to study Frontend development. 
                     This is a fascinating, thought-provoking, creative industry, 
                     I have always wanted to realize myself in this area. 
                     I plan to work and develop in this field in the future.</p>
                 </div>
 
                 <div>
-                    <p class="chapter">Education</p>
-                    <p>Completed basic general education, at this time I'm studying 
+                    <p class="chapter" id="education">Education</p>
+                    <p class="p-e">Completed basic general education, at this time I'm studying 
                     at a college in the specialty "Information technology software".</p>
                 </div>
 
                 <div>
-                    <p class="chapter">Skills</p>
+                    <p class="chapter" id="skills">Skills</p>
                     <ul>
-                        <li>HTML5, CCS</li>
-                        <li>JavaScript Basics, Python, C#</li>
-                        <li>Git, GitHub</li>
-                        <li>VS Code, Microsoft VS</li>
+                        <li class="p-e">HTML5, CCS</li>
+                        <li class="p-e">JavaScript Basics, Python, C#</li>
+                        <li class="p-e">Git, GitHub</li>
+                        <li class="p-e">VS Code, Microsoft VS</li>
                     </ul>
                 </div>
 
                 <div>
-                    <p class="chapter">Code example</p>
-                    <pre class="hljs" style="display: block; overflow-x: auto; background: rgb(68, 67, 68); color: rgb(171, 155, 171); padding: 0.5em;">
+                    <p class="chapter" id="code-example">Code example</p>
+                    <pre class="hljs" style="display: block; overflow-x: auto; background: rgb(68, 67, 68); color: rgb(171, 155, 171); padding: 0.5em; width: 550px;">
                         <span class="hljs-keyword" style="color: rgb(123, 89, 192);">using</span> System;
                         <span class="hljs-keyword" style="color: rgb(123, 89, 192);">using</span> System.Linq;
                         
