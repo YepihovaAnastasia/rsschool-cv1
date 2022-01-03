@@ -1,3 +1,154 @@
+*{
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
 body{
-    
+    background-color: #0D0C0C;    ;
+    display: flex;
+    min-height: 139vh;
+    flex-direction: column;
+    margin: 0;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1500px;
+    display: flex;
+}
+
+.header{
+    background-color: #935D5D;    ;
+    width: 1000px;
+    min-height: 6vh;
+    margin: 10px auto;
+}
+
+.my-cv{
+    padding: 4px 3px 3px;
+}
+
+.nav{
+    width: 1000px;
+    color: rgb(193, 197, 201);
+    margin: 1px auto 5px;
+}
+
+.t-nav{
+    color: rgba(172, 176, 179, 0.781);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.general-block{
+    background-color: #927A77;
+    display: flex;
+    width: 1000px;
+    min-height: 100vh;
+    margin: auto;
+    justify-content: space-between;
+}
+
+
+.general-block > main > div{
+    background-color: #bdc7cc;
+    display: flex;
+    width: 1000px;
+    min-height: 100vh;
+    margin: auto;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.column-one{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    align-self: flex-start;
+}
+
+.my-photo{
+    width: 337px;
+    border: 4px solid black;
+}
+
+.name > p{
+    color: black;
+    font-weight: bold;
+    font-size: 62px;
+    margin: -1px;
+    height: 100px;
+}
+
+.probel{
+    height: -1px;
+}
+
+.title-for-contacts{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.c{
+    margin: -1px;
+}
+
+.p-e{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    margin: 20px;
+}
+
+.for-icons{
+    display: flex;
+    flex-direction: column;
+}
+
+.title-for-messenger{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.icon{
+    width: 30px;
+}
+
+.column-two{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    width: 600px;
+}
+
+.chapter{
+    font-family: 'Nunito', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    margin: 20px;
+}
+
+.footer{
+    background-color: #8C6659;    ;
+    width: 1000px;
+    min-height: 20vh;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer > a > img{
+    width: 170px;
+}
+
+.footer > a{
+    padding: 40px;
+}
+
+.footer > h3{
+    font-size: 35px;
+    margin: 20px;
+    padding: 40px;
 }
