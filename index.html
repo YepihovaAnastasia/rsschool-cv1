@@ -17,7 +17,8 @@
         </div>
     </header>
 
-    <nav>
+    
+    <nav class="container">
         <div class="nav">
             <a href="#contacts" class="t-nav">Contacts</a> | 
             <a href="#about-me" class="t-nav">About me</a> | 
@@ -29,110 +30,107 @@
     </nav>
 
     <!--Основной контейнер-->
-    <div >
+    <div class="container">
         <main class="general-block">
-            <div class="container">
-                <div class="column-one">
-                    <img src="me.jpg" alt="My photo" class="my-photo">
-                    <div class="name">
-                        <h4 class="probel"></h4>
-                        <p>Anastasia</p>
-                        <p>Yepihova</p>
-                    </div>
+            <div class="column-one">
+                <img src="me.jpg" alt="My photo" class="my-photo">
+                <div class="name">
+                    <h4 class="probel"></h4>
+                    <p>Anastasia</p>
+                    <p>Yepihova</p>
+                </div>
 
-                    <div class="contacts" id="contacts">
+                <div class="contacts" id="contacts">
 
-                        <p class="title-for-contacts">PHONE</p>
-                        <p class="c">+375 (33) 664-91-73</p>
+                    <p class="title-for-contacts">PHONE</p>
+                    <p class="c">+375 (33) 664-91-73</p>
 
-                        <p class="title-for-contacts">E-MAIL</p>
-                        <p class="c">anastasiayepihova@gmail.com</p>
+                    <p class="title-for-contacts">E-MAIL</p>
+                    <p class="c">anastasiayepihova@gmail.com</p>
 
-                        <div class="for-icons">
-                            <p class="title-for-messenger">@userAna</p>
-                                <a href="https://t.me/userAna">
-                                    <img src="telegram.png" alt="telegram_link" class="icon">
-                                </a>
-
-                            <p class="title-for-messenger">nastya_epihova</p>
-                            <a href="https://vk.com/away.php?to=https%3A%2F%2Finstagram.com%2Fnastya_epihova%3Futm_medium%3Dcopy_link&cc_key=">
-                                <img src="instagram.png" alt="instagram_link" class="icon">
+                    <div class="for-icons">
+                        <p class="title-for-messenger">@userAna</p>
+                            <a href="https://t.me/userAna">
+                                <img src="telegram.png" alt="telegram_link" class="icon">
                             </a>
-                        </div>
 
+                        <p class="title-for-messenger">nastya_epihova</p>
+                        <a href="https://vk.com/away.php?to=https%3A%2F%2Finstagram.com%2Fnastya_epihova%3Futm_medium%3Dcopy_link&cc_key=">
+                            <img src="instagram.png" alt="instagram_link" class="icon">
+                        </a>
                     </div>
 
                 </div>
 
-                <div class="column-two">
-                    <div >
-                        <p class="chapter" id="about-me">About me</p>
-                        <p class="p-e">My aim at the moment is to study Frontend development. 
-                        This is a fascinating, thought-provoking, creative industry, 
-                        I have always wanted to realize myself in this area. 
-                        I plan to work and develop in this field in the future.</p>
-                    </div>
+            </div>
 
-                    <div>
-                        <p class="chapter" id="education">Education</p>
-                        <p class="p-e">Completed basic general education, at this time I'm studying 
-                        at a college in the specialty "Information technology software".</p>
-                    </div>
+            <div class="column-two">
+                <div >
+                    <p class="chapter" id="about-me">About me</p>
+                    <p class="p-e">My aim at the moment is to study Frontend development. 
+                    This is a fascinating, thought-provoking, creative industry, 
+                    I have always wanted to realize myself in this area. 
+                    I plan to work and develop in this field in the future.</p>
+                </div>
 
-                    <div>
-                        <p class="chapter" id="skills">Skills</p>
-                        <ul>
-                            <li class="p-e">HTML5, CCS</li>
-                            <li class="p-e">JavaScript Basics, Python, C#</li>
-                            <li class="p-e">Git, GitHub</li>
-                            <li class="p-e">VS Code, Microsoft VS</li>
-                        </ul>
-                    </div>
+                <div>
+                    <p class="chapter" id="education">Education</p>
+                    <p class="p-e">Completed basic general education, at this time I'm studying 
+                    at a college in the specialty "Information technology software".</p>
+                </div>
 
-                    <div>
-                        <p class="chapter" id="languages">Languages</p>
-                        <ul>
-                            <li class="p-e">English - Intermediate</li>
-                            <li class="p-e">Russian - Native</li>
-                            <li class="p-e">Ukrainian - Upper Intermediate</li>
-                            <li class="p-e">Belarusian - Native</li>
-                            <li class="p-e">Lithuanian - Beginner</li>
-                            <li class="p-e">Polish - Beginner</li>
-                        </ul>
-                    </div>
+                <div>
+                    <p class="chapter" id="skills">Skills</p>
+                    <ul>
+                        <li class="p-e">HTML5, CCS</li>
+                        <li class="p-e">JavaScript Basics, Python, C#</li>
+                        <li class="p-e">Git, GitHub</li>
+                        <li class="p-e">VS Code, Microsoft VS</li>
+                    </ul>
+                </div>
 
-                    <div>
-                        <p class="chapter" id="code-example">Code example</p>
-                        <pre class="hljs" style="display: block; overflow-x: auto; background: rgb(68, 67, 68); color: rgb(171, 155, 171); padding: 0.5em; width: 550px;">
-                            <span class="hljs-keyword" style="color: rgb(123, 89, 192);">using</span> System;
-                            <span class="hljs-keyword" style="color: rgb(123, 89, 192);">using</span> System.Linq;
-                            
-                            <span class="hljs-keyword" style="color: rgb(123, 89, 192);">namespace</span> <span class="hljs-title" style="color: rgb(81, 106, 236);">ConsoleApp1</span>
+                <div>
+                    <p class="chapter" id="languages">Languages</p>
+                    <ul>
+                        <li class="p-e">English - Intermediate</li>
+                        <li class="p-e">Russian - Native</li>
+                        <li class="p-e">Ukrainian - Upper Intermediate</li>
+                        <li class="p-e">Belarusian - Native</li>
+                        <li class="p-e">Lithuanian - Beginner</li>
+                        <li class="p-e">Polish - Beginner</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <p class="chapter" id="code-example">Code example</p>
+                    <pre class="hljs" style="display: block; overflow-x: auto; background: rgb(68, 67, 68); color: rgb(171, 155, 171); padding: 0.5em; width: 550px;">
+                        <span class="hljs-keyword" style="color: rgb(123, 89, 192);">using</span> System;
+                        <span class="hljs-keyword" style="color: rgb(123, 89, 192);">using</span> System.Linq;
+                        
+                        <span class="hljs-keyword" style="color: rgb(123, 89, 192);">namespace</span> <span class="hljs-title" style="color: rgb(81, 106, 236);">ConsoleApp1</span>
+                        {
+                            <span class="hljs-keyword" style="color: rgb(123, 89, 192);">class</span> <span class="hljs-title" style="color: rgb(81, 106, 236);">Program</span>
                             {
-                                <span class="hljs-keyword" style="color: rgb(123, 89, 192);">class</span> <span class="hljs-title" style="color: rgb(81, 106, 236);">Program</span>
-                                {
-                                    <span class="hljs-function"><span class="hljs-keyword" style="color: rgb(123, 89, 192);">static</span> <span class="hljs-keyword" style="color: rgb(123, 89, 192);">bool</span> <span class="hljs-title" style="color: rgb(81, 106, 236);">IsPalindrome</span>(<span class="hljs-params" style="color: rgb(166, 89, 38);"><span class="hljs-keyword" style="color: rgb(123, 89, 192);">string</span> str</span>)
-                                    </span>{
-                                        <span class="hljs-keyword" style="color: rgb(123, 89, 192);">return</span> str == <span class="hljs-keyword" style="color: rgb(123, 89, 192);">new</span> <span class="hljs-keyword" style="color: rgb(123, 89, 192);">string</span>(str.Reverse().ToArray());
-                                    }
-                            
-                                    <span class="hljs-function"><span class="hljs-keyword" style="color: rgb(123, 89, 192);">static</span> <span class="hljs-keyword" style="color: rgb(123, 89, 192);">void</span> <span class="hljs-title" style="color: rgb(81, 106, 236);">Main</span>(<span class="hljs-params" style="color: rgb(166, 89, 38);"></span>)
-                                    </span>{
-                                        
-                                        Console.Write(<span class="hljs-string" style="color: rgb(197, 145, 0);">"Введите строку: "</span>);
-                                        <span class="hljs-keyword" style="color: rgb(123, 89, 192);">var</span> str = Console.ReadLine();
-                                        <span class="hljs-keyword" style="color: rgb(123, 89, 192);">var</span> result = IsPalindrome(str);
-                                        <span class="hljs-keyword" style="color: rgb(123, 89, 192);">var</span> message = <span class="hljs-string" style="color: rgb(197, 145, 0);">"Является ли строка '"</span> + str + <span class="hljs-string" style="color: rgb(197, 145, 0);">"' палиндромом: "</span> + result;
-                            
-                                        Console.WriteLine(message);
-                            
-                                        Console.ReadKey();
-                                    }
+                                <span class="hljs-function"><span class="hljs-keyword" style="color: rgb(123, 89, 192);">static</span> <span class="hljs-keyword" style="color: rgb(123, 89, 192);">bool</span> <span class="hljs-title" style="color: rgb(81, 106, 236);">IsPalindrome</span>(<span class="hljs-params" style="color: rgb(166, 89, 38);"><span class="hljs-keyword" style="color: rgb(123, 89, 192);">string</span> str</span>)
+                                </span>{
+                                    <span class="hljs-keyword" style="color: rgb(123, 89, 192);">return</span> str == <span class="hljs-keyword" style="color: rgb(123, 89, 192);">new</span> <span class="hljs-keyword" style="color: rgb(123, 89, 192);">string</span>(str.Reverse().ToArray());
+                                }
+                        
+                                <span class="hljs-function"><span class="hljs-keyword" style="color: rgb(123, 89, 192);">static</span> <span class="hljs-keyword" style="color: rgb(123, 89, 192);">void</span> <span class="hljs-title" style="color: rgb(81, 106, 236);">Main</span>(<span class="hljs-params" style="color: rgb(166, 89, 38);"></span>)
+                                </span>{
+                                    
+                                    Console.Write(<span class="hljs-string" style="color: rgb(197, 145, 0);">"Введите строку: "</span>);
+                                    <span class="hljs-keyword" style="color: rgb(123, 89, 192);">var</span> str = Console.ReadLine();
+                                    <span class="hljs-keyword" style="color: rgb(123, 89, 192);">var</span> result = IsPalindrome(str);
+                                    <span class="hljs-keyword" style="color: rgb(123, 89, 192);">var</span> message = <span class="hljs-string" style="color: rgb(197, 145, 0);">"Является ли строка '"</span> + str + <span class="hljs-string" style="color: rgb(197, 145, 0);">"' палиндромом: "</span> + result;
+                        
+                                    Console.WriteLine(message);
+                        
+                                    Console.ReadKey();
                                 }
                             }
-                        </pre>
-                    </div>
-                
+                        }
+                    </pre>
                 </div>
             </div>
         </main>
