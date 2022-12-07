@@ -13,7 +13,7 @@ My aim at the moment is to study Frontend development. This is a fascinating, th
 
 ## Skills:
 * HTML5, CCS
-* JavaScript Basics, Python, C#
+* JavaScript, php 
 * Git, GitHub
 * VS Code, Microsoft VS
 
